@@ -25,7 +25,7 @@ I’m a detail-oriented college graduate with a B.A. in neuroscience with indepe
 
 ### **5. Clinical Data Pipeline & Length of Stay Analysis**
 * **Overview:** An automated, audit-ready data pipeline built in Python (**'pandas'** and **'matplotlib'**) to process, clean, and analyze patient hospital stay metrics. Designed with native libraries to ensure zero "black-box" dependencies and complete transparency.
-* **Files:** ['Healthcare Dataset Cleaning and Analysis.py', ['patient_data.csv'](./patient_data.csv)
+* **Files:** ['Healthcare Dataset Cleaning and Analysis.ipynp', ['patient_data.csv'](./patient_data.csv)
 * **Pipeline Workflow:**
   1. **Data Ingestion:** Loads raw patient and billing data from CSV.
   2. **Datetime Engineering:** Calculates precise length-of-stay metrics from admission and discharge timestamps.
@@ -44,15 +44,6 @@ I’m a detail-oriented college graduate with a B.A. in neuroscience with indepe
 ## Skills Demonstrated
 * **Microsoft Excel:** Data Cleaning & Validation, PivotTables, Basic Formulas (SUM, COUNTIF, IF), Organization & Attention to Detail, Basic Reporting & Charting
 * **SQL:** CASE, Nested Queries, JOIN's, ORDER BY
-* **Python:** Pandas, Matplotlib, Data Wrangling, Pipeline Automation
-
----
-
-## Contact
-* **Email:** jonwalker0705@email.com
-* **LinkedIn:** [www.linkedin.com/in/jon-walker-36239a2b1](https://www.linkedin.com/in/jon-walker-36239a2b1)
-* **Microsoft Excel:** Data Cleaning & Validation, PivotTables, Basic Formulas (`SUM`, `COUNTIF`, `IF`), Organization & Attention to Detail, Basic Reporting & Charting
-* **SQL:** `CASE`, Nested Queries, `JOIN`s, `ORDER BY`
 * **Python:** Pandas, Matplotlib, Data Wrangling, Pipeline Automation
 
 ---
