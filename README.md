@@ -25,7 +25,7 @@ I’m a detail-oriented college graduate with a B.A. in neuroscience with indepe
 
 ### **5. Healthcare Dataset Cleaning and Analysis**
 * **Overview:** An automated, audit-ready data pipeline built in Python (**`pandas`** and **`matplotlib`**) to process, clean, and analyze patient hospital stay metrics. Designed with native libraries to ensure zero "black-box" dependencies and complete transparency.
-* **Files:** [`Healthcare Dataset Cleaning and Analysis.ipynb`](./Healthcare%20Dataset%20Cleaning%20and%20Analysis.ipynb), [`healthcare_dataset.csv`](./Healthcare%20Dataset%20Cleaning%20and%20Analysis.csv)
+* **Files:** [`Healthcare Dataset Cleaning and Analysis`](./Healthcare%20Dataset%20Cleaning%20and%20Analysis), [`healthcare_dataset.csv`](./healthcare_dataset.csv)
 * **Pipeline Workflow:**
   1. **Data Ingestion:** Loads raw patient and billing data from CSV.
   2. **Datetime Engineering:** Calculates precise length-of-stay metrics from admission and discharge timestamps.
