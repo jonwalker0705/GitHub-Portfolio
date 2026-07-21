@@ -13,7 +13,7 @@ I’m a detail-oriented college graduate with a B.A. in neuroscience with indepe
 
 ### **2. Data Entry Simulation**
 * **Description:** Entered sample customer and survey data accurately into spreadsheets.
-* **Files:** [`Data Entry Simulation - Before.xlsx`](./Data%20Entry%20Simulation%20-%20Before.xlsx), [`Data Entry Simulation - After.xlsx`](./Data%20Entry%20Simulation%20-%20After.xlsx)
+* **Files:** [`Data Entry Simulation - Before.xlsx`](./Data%20Entry%20Simulation%20Before.xlsx), [`Data Entry Simulation - After.xlsx`](./Data%20Entry%20Simulation%20After.xlsx)
 
 ### **3. Formatting & Reporting**
 * **Description:** Created formatted tables, summaries, and simple charts using PivotTables and formulas.
@@ -23,9 +23,9 @@ I’m a detail-oriented college graduate with a B.A. in neuroscience with indepe
 * **Description:** Used queries to find average duration of recovery by diagnosis, prescriptions per medication, average improvement for each diagnosis, highest average improvement by medication per diagnosis, and categorized patients by age.
 * **Files:** [`Diagnosis by AVG Duration.sql`](./Diagnosis%20by%20AVG%20Duration.sql), [`Number of Prescriptions per Medication.sql`](./Number%20of%20Prescriptions%20per%20Medication.sql), [`Highest AVG Improvement by Medication per Diagnosis.sql`](./Highest%20AVG%20Improvement%20by%20Medication%20per%20Diagnosis.sql), [`Adding Age Category to Patients.sql`](./Adding%20Age%20Category%20to%20Patients.sql)
 
-### **5. Clinical Data Pipeline & Length of Stay Analysis**
-* **Overview:** An automated, audit-ready data pipeline built in Python (**'pandas'** and **'matplotlib'**) to process, clean, and analyze patient hospital stay metrics. Designed with native libraries to ensure zero "black-box" dependencies and complete transparency.
-* **Files:** ['Healthcare Dataset Cleaning and Analysis.ipynp', ['patient_data.csv'](./patient_data.csv)
+### **5. Healthcare Dataset Cleaning and Analysis**
+* **Overview:** An automated, audit-ready data pipeline built in Python (**`pandas`** and **`matplotlib`**) to process, clean, and analyze patient hospital stay metrics. Designed with native libraries to ensure zero "black-box" dependencies and complete transparency.
+* **Files:** [`Healthcare Dataset Cleaning and Analysis.ipynb`](./Healthcare%20Dataset%20Cleaning%20and%20Analysis.ipynb), [`Healthcare Dataset Cleaning and Analysis.csv`](./Healthcare%20Dataset%20Cleaning%20and%20Analysis.csv)
 * **Pipeline Workflow:**
   1. **Data Ingestion:** Loads raw patient and billing data from CSV.
   2. **Datetime Engineering:** Calculates precise length-of-stay metrics from admission and discharge timestamps.
@@ -42,8 +42,8 @@ I’m a detail-oriented college graduate with a B.A. in neuroscience with indepe
 ---
 
 ## Skills Demonstrated
-* **Microsoft Excel:** Data Cleaning & Validation, PivotTables, Basic Formulas (SUM, COUNTIF, IF), Organization & Attention to Detail, Basic Reporting & Charting
-* **SQL:** CASE, Nested Queries, JOIN's, ORDER BY
+* **Microsoft Excel:** Data Cleaning & Validation, PivotTables, Basic Formulas (`SUM`, `COUNTIF`, `IF`), Organization & Attention to Detail, Basic Reporting & Charting
+* **SQL:** `CASE`, Nested Queries, `JOIN`s, `ORDER BY`
 * **Python:** Pandas, Matplotlib, Data Wrangling, Pipeline Automation
 
 ---
