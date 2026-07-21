@@ -37,6 +37,7 @@ I’m a detail-oriented college graduate with a B.A. in neuroscience with indepe
   - **Clean records retained:** Audit-ready for modeling
   - **Billing errors quarantined:** Isolated for error tracking
 * **Visualizing the Results:**
+
   <img width="563" height="516" alt="image" src="https://github.com/user-attachments/assets/89df9b58-2680-4d58-8895-3bf4942866f8" />
 
 ---
