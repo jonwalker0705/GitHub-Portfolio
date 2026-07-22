@@ -45,7 +45,7 @@ I’m a detail-oriented college graduate with a B.A. in neuroscience with indepe
 ## Skills Demonstrated
 * **Microsoft Excel:** Data Cleaning & Validation, PivotTables, Basic Formulas (`SUM`, `COUNTIF`, `IF`), Organization & Attention to Detail, Basic Reporting & Charting
 * **SQL:** `CASE`, Nested Queries, `JOIN`s, `ORDER BY`
-* **Python:** Pandas, Matplotlib, Data Wrangling, Pipeline Automation
+* **Python:** 'Pandas', 'Matplotlib', Data Wrangling, Pipeline Automation
 
 ---
 
