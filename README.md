@@ -42,7 +42,7 @@ I’m a detail-oriented college graduate with a B.A. in neuroscience with indepe
 
 ### **6. Parkinson’s Telemonitoring Relational Pipeline & Acoustic Biomarker Analytics**
 * **Overview:** An end-to-end data pipeline processing **5,875 acoustic telemonitoring trials** across 42 unique Parkinson’s patients (UCI ML Repository). Transformed data points into a **2nd Normal Form (2NF)** relational SQLite database to evaluate motor progression (`motor_updrs`) and analyze remote vocal cord instability metrics (`jitter`, `shimmer`, `NHR`).
-* **Files:** [`parkinsons_telemonitoring_analysis.py`](./parkinsons_telemonitoring_analysis.py), [`parkinsons_updrs.data`](./parkinsons_updrs.data)
+* **Files:** [`parkinsons_telometry_python_and_sql.py`](./parkinsons_telemonitoring_python_and_sql.py), [`parkinsons_updrs.data`](./parkinsons_updrs.data)
 * **Pipeline Workflow:**
   1. **Audit & Schema Normalization:** Deconstructed flat telemetry CSV into relational `patients` (demographic master) and `telemonitoring_trials` (longitudinal time-series) tables in SQLite.
   2. **Longitudinal SQL Analytics:** Employed SQL window functions (`ROW_NUMBER() OVER`) to track individual patient motor progression from baseline to final remote test.
