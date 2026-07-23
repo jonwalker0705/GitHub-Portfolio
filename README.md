@@ -40,12 +40,27 @@ I’m a detail-oriented college graduate with a B.A. in neuroscience with indepe
 
   <img width="563" height="516" alt="image" src="https://github.com/user-attachments/assets/89df9b58-2680-4d58-8895-3bf4942866f8" />
 
+### **6. Parkinson’s Telemonitoring Relational Pipeline & Acoustic Biomarker Analytics**
+* **Overview:** An end-to-end data pipeline processing **5,875 acoustic telemonitoring trials** across 42 unique Parkinson’s patients (UCI ML Repository). Transformed flat longitudinal data into a **2nd Normal Form (2NF)** relational SQLite database to evaluate motor progression (`motor_updrs`) and analyze remote vocal cord instability metrics (`jitter`, `shimmer`, `NHR`).
+* **Files:** [`parkinsons_telemonitoring_analysis.py`](./parkinsons_telemonitoring_analysis.py), [`parkinsons_updrs.data`](./parkinsons_updrs.data)
+* **Pipeline Workflow:**
+  1. **Audit & Schema Normalization:** Deconstructed flat telemetry CSV into relational `patients` (demographic master) and `telemonitoring_trials` (longitudinal time-series) tables in SQLite.
+  2. **Longitudinal SQL Analytics:** Employed SQL window functions (`ROW_NUMBER() OVER`) to track individual patient motor progression from baseline to final remote test.
+  3. **Biomarker Stratification:** Categorized records into clinical UPDRS severity tiers (`CASE WHEN`) to measure acoustic degradation trends.
+  4. **Clinical Visualization:** Exported deprecation-free Seaborn visual reports linking vocal instability directly to disease severity.
+* **Key Analytical Insights:**
+  - **Vocal Instability Correlation:** Monotonic increase in average vocal jitter and shimmer across UPDRS severity tiers (<15, 15–25, >25).
+  - **Database Efficiency:** Normalization eliminated demographic data redundancy across 5,800+ longitudinal trials.
+* **Visualizing the Results:**
+
+  <img width="700" alt="Parkinson's Telemonitoring Insights" src="./images/parkinsons_clinical_insights.png" />
+
 ---
 
 ## Skills Demonstrated
-* **Microsoft Excel:** Data Cleaning & Validation, PivotTables, Basic Formulas (`SUM`, `COUNTIF`, `IF`), Organization & Attention to Detail, Basic Reporting & Charting
-* **SQL:** `CASE`, Nested Queries, `JOIN`s, `ORDER BY`
-* **Python:** 'Pandas', 'Matplotlib', Data Wrangling, Pipeline Automation
+* **Microsoft Excel:** Data Cleaning & Validation, PivotTables, Formulas (`SUM`, `COUNTIF`, `IF`), Organization & Attention to Detail, Reporting & Charting
+* **SQL & Database Engineering:** Relational Database Design (2NF, PK/FK), In-Memory SQLite (`sqlite3`), Window Functions (`ROW_NUMBER() OVER`), CTEs (`WITH`), Conditional Aggregation (`CASE WHEN`), Multi-Table `JOIN`s
+* **Python:** `pandas`, `seaborn`, `matplotlib`, `sqlite3`, Data Wrangling, Pipeline Automation, Data Structure Optimization
 
 ---
 
