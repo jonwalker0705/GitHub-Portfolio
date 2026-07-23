@@ -53,7 +53,7 @@ I’m a detail-oriented college graduate with a B.A. in neuroscience with indepe
   - **Database Efficiency:** Normalization eliminated demographic data redundancy across 5,800+ longitudinal trials.
 * **Visualizing the Results:**
 
-  <img width="700" alt="Parkinson's Telemonitoring Insights" src="./images/parkinsons_clinical_insights.png" />
+  <img width="1384" height="484" alt="image" src="https://github.com/user-attachments/assets/44724179-5f1c-46fa-89eb-ed3fad8ea0ca" />
 
 ---
 
