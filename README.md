@@ -24,7 +24,7 @@ I’m a detail-oriented college graduate with a B.A. in neuroscience with indepe
 * **Files:** [`Diagnosis by AVG Duration.sql`](./Diagnosis%20by%20AVG%20Duration.sql), [`Number of Prescriptions per Medication.sql`](./Number%20of%20Prescriptions%20per%20Medication.sql), [`Highest AVG Improvement by Medication per Diagnosis.sql`](./Highest%20AVG%20Improvement%20by%20Medication%20per%20Diagnosis.sql), [`Adding Age Category to Patients.sql`](./Adding%20Age%20Category%20to%20Patients.sql)
 
 ### **5. Healthcare Dataset Cleaning and Analysis**
-* **Overview:** An automated, audit-ready data pipeline built in Python (**`pandas`** and **`matplotlib`**) to process, clean, and analyze patient hospital stay metrics. Designed with native libraries to ensure zero "black-box" dependencies and complete transparency.
+* **Overview:** An automated, audit-ready data pipeline built in Python (**`pandas`** and **`matplotlib`**) to process, clean, and analyze patient hospital stay metrics. Designed with native libraries to ensure zero black-box dependencies and complete transparency.
 * **Files:** [`healthcare_dataset_cleaning_and_analysis.py`](./healthcare_dataset_cleaning_and_analysis.py), [`healthcare_dataset.csv`](./healthcare_dataset.csv)
 * **Pipeline Workflow:**
   1. **Data Ingestion:** Loads raw patient and billing data from CSV.
